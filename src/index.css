@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Garnett+Light:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Garnett+Semibold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Garnett+Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Garnett+Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.img1{
+  background-image: url('assets/image1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img2{
+  background-image: url('assets/image2.png');
+  background-size: cover;
+}
+
+.img-3{
+  background-image: url('assets/image3.png');
+  background-size: cover;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+ 
+
+.scroll-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ .card{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease,   box-shadow 0.4s  ease-in-out;
+ }
+
+ .card.active { 
+  transform: scale(1.10);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+ }  
